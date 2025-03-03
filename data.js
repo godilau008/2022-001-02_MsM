@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-v1chambre",
-      "name": "v1chambre",
+      "id": "0-salon2",
+      "name": "Salon2",
       "levels": [
         {
           "tileSize": 256,
@@ -16,27 +16,43 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.32224537271578413,
+        "pitch": 0.003548869323410031,
+        "fov": 1.5629220283745582
       },
       "linkHotspots": [
         {
-          "yaw": 1.0592840268095216,
-          "pitch": 0.4416657724019011,
+          "yaw": 0.4269994433615736,
+          "pitch": 0.35568625126111897,
           "rotation": 0,
-          "target": "1-v1couloir"
+          "target": "1-salon"
+        },
+        {
+          "yaw": -1.2442346087073552,
+          "pitch": 0.25725800995930825,
+          "rotation": 0,
+          "target": "2-cuisine"
+        },
+        {
+          "yaw": -2.0168856317763133,
+          "pitch": 0.2428307578698572,
+          "rotation": 0,
+          "target": "3-couloir"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-v1couloir",
-      "name": "v1couloir",
+      "id": "1-salon",
+      "name": "Salon",
       "levels": [
         {
           "tileSize": 256,
@@ -50,39 +66,43 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.03593825503986636,
+        "pitch": -0.040869802615612016,
+        "fov": 1.5629220283745582
       },
       "linkHotspots": [
         {
-          "yaw": 0.42149612404995906,
-          "pitch": 0.2576466129701096,
+          "yaw": -0.3045863463297671,
+          "pitch": 0.34166380698925813,
           "rotation": 0,
-          "target": "5-v1salon2"
+          "target": "0-salon2"
         },
         {
-          "yaw": -0.9243242084074872,
-          "pitch": 0.4936477236729129,
+          "yaw": 0.38492351054662777,
+          "pitch": 0.27105124045747075,
           "rotation": 0,
-          "target": "3-v1salle-de-bain"
+          "target": "2-cuisine"
         },
         {
-          "yaw": -2.3390526292886893,
-          "pitch": 0.4312119882254031,
+          "yaw": -0.08415483699060822,
+          "pitch": 0.236278167951955,
           "rotation": 0,
-          "target": "0-v1chambre"
+          "target": "3-couloir"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-v1cuisine",
-      "name": "v1Cuisine",
+      "id": "2-cuisine",
+      "name": "Cuisine",
       "levels": [
         {
           "tileSize": 256,
@@ -96,9 +116,13 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -106,29 +130,29 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.4961288065409857,
-          "pitch": 0.24826059091424924,
+          "yaw": -0.5562015540113912,
+          "pitch": 0.23974599416183473,
           "rotation": 0,
-          "target": "4-v1salon1"
+          "target": "1-salon"
         },
         {
-          "yaw": 0.22369542137691845,
-          "pitch": 0.31875967200265265,
+          "yaw": 0.3400258554077702,
+          "pitch": 0.37074556411005233,
           "rotation": 0,
-          "target": "5-v1salon2"
+          "target": "0-salon2"
         },
         {
-          "yaw": 1.1762038766259852,
-          "pitch": 0.5653187657097867,
+          "yaw": 1.2494205125600946,
+          "pitch": 0.5409452385903535,
           "rotation": 0,
-          "target": "1-v1couloir"
+          "target": "3-couloir"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-v1salle-de-bain",
-      "name": "v1Salle-de-bain",
+      "id": "3-couloir",
+      "name": "Couloir",
       "levels": [
         {
           "tileSize": 256,
@@ -142,27 +166,43 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -2.0319700662088014,
+        "pitch": 0.02484208526394127,
+        "fov": 1.5629220283745582
       },
       "linkHotspots": [
         {
-          "yaw": 1.714316476349766,
-          "pitch": 0.4897509229515862,
+          "yaw": 0.01684333428850593,
+          "pitch": 0.3011251371741821,
           "rotation": 0,
-          "target": "1-v1couloir"
+          "target": "0-salon2"
+        },
+        {
+          "yaw": -1.3634075508000727,
+          "pitch": 0.4834619119801662,
+          "rotation": 0,
+          "target": "4-salle-de-bain"
+        },
+        {
+          "yaw": -2.775442375914828,
+          "pitch": 0.40835553700105365,
+          "rotation": 0,
+          "target": "5-chambre"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-v1salon1",
-      "name": "v1salon1",
+      "id": "4-salle-de-bain",
+      "name": "Salle-de-bain",
       "levels": [
         {
           "tileSize": 256,
@@ -176,39 +216,31 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.651626870222005,
+        "pitch": -0.0023421243076491294,
+        "fov": 1.5629220283745582
       },
       "linkHotspots": [
         {
-          "yaw": -0.3968552752832011,
-          "pitch": 0.33249061577362227,
+          "yaw": 1.6495222285917226,
+          "pitch": 0.4813606118329048,
           "rotation": 0,
-          "target": "5-v1salon2"
-        },
-        {
-          "yaw": 0.4024168564049333,
-          "pitch": 0.2563906570712984,
-          "rotation": 0,
-          "target": "2-v1cuisine"
-        },
-        {
-          "yaw": -0.07529653109417822,
-          "pitch": 0.23592498005153217,
-          "rotation": 0,
-          "target": "1-v1couloir"
+          "target": "3-couloir"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-v1salon2",
-      "name": "v1salon2",
+      "id": "5-chambre",
+      "name": "Chambre",
       "levels": [
         {
           "tileSize": 256,
@@ -222,9 +254,13 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -232,28 +268,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.4477349852587018,
-          "pitch": 0.36873272702986526,
+          "yaw": 1.0384947014760257,
+          "pitch": 0.4514658680571948,
           "rotation": 0,
-          "target": "4-v1salon1"
-        },
-        {
-          "yaw": -1.2282660043722,
-          "pitch": 0.2687962725456696,
-          "rotation": 0,
-          "target": "2-v1cuisine"
-        },
-        {
-          "yaw": -2.012637493536751,
-          "pitch": 0.28373812720346514,
-          "rotation": 0,
-          "target": "1-v1couloir"
+          "target": "3-couloir"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "1CC",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
