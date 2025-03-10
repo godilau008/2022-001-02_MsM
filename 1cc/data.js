@@ -1,108 +1,58 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-salon2",
-      "name": "Salon2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.32224537271578413,
-        "pitch": 0.003548869323410031,
-        "fov": 1.5629220283745582
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.4269994433615736,
-          "pitch": 0.35568625126111897,
-          "rotation": 0,
-          "target": "1-salon"
-        },
-        {
-          "yaw": -1.2442346087073552,
-          "pitch": 0.25725800995930825,
-          "rotation": 0,
-          "target": "2-cuisine"
-        },
-        {
-          "yaw": -2.0168856317763133,
-          "pitch": 0.2428307578698572,
-          "rotation": 0,
-          "target": "3-couloir"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-salon",
-      "name": "Salon",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -0.03593825503986636,
-        "pitch": -0.040869802615612016,
-        "fov": 1.5629220283745582
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.3045863463297671,
-          "pitch": 0.34166380698925813,
-          "rotation": 0,
-          "target": "0-salon2"
-        },
-        {
-          "yaw": 0.38492351054662777,
-          "pitch": 0.27105124045747075,
-          "rotation": 0,
-          "target": "2-cuisine"
-        },
-        {
-          "yaw": -0.08415483699060822,
-          "pitch": 0.236278167951955,
-          "rotation": 0,
-          "target": "3-couloir"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-cuisine",
+      "id": "0-cuisine",
       "name": "Cuisine",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.5626018005051336
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.5784789492782778,
+          "pitch": 0.22993858946010448,
+          "rotation": 0,
+          "target": "1-salon-1"
+        },
+        {
+          "yaw": 0.09766653629772293,
+          "pitch": 0.3248347244499108,
+          "rotation": 0,
+          "target": "2-salon-2"
+        },
+        {
+          "yaw": 1.206416233123571,
+          "pitch": 0.566964508852422,
+          "rotation": 0,
+          "target": "3-couloir"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-salon-1",
+      "name": "Salon 1",
       "levels": [
         {
           "tileSize": 256,
@@ -130,20 +80,64 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.5562015540113912,
-          "pitch": 0.23974599416183473,
+          "yaw": 0.39992306358922747,
+          "pitch": 0.304959526962552,
           "rotation": 0,
-          "target": "1-salon"
+          "target": "0-cuisine"
         },
         {
-          "yaw": 0.3400258554077702,
-          "pitch": 0.37074556411005233,
+          "yaw": -0.2823052938027022,
+          "pitch": 0.3539609422743233,
           "rotation": 0,
-          "target": "0-salon2"
+          "target": "2-salon-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-salon-2",
+      "name": "Salon 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 1.2494205125600946,
-          "pitch": 0.5409452385903535,
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.45359066297844386,
+          "pitch": 0.34172124251163716,
+          "rotation": 0,
+          "target": "1-salon-1"
+        },
+        {
+          "yaw": -1.2422112548289093,
+          "pitch": 0.2632523779583096,
+          "rotation": 0,
+          "target": "0-cuisine"
+        },
+        {
+          "yaw": -2.016724850189771,
+          "pitch": 0.2938272479033355,
           "rotation": 0,
           "target": "3-couloir"
         }
@@ -174,26 +168,26 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -2.0319700662088014,
-        "pitch": 0.02484208526394127,
-        "fov": 1.5629220283745582
+        "yaw": -2.1006963799954033,
+        "pitch": 0,
+        "fov": 1.5626018005051336
       },
       "linkHotspots": [
         {
-          "yaw": 0.01684333428850593,
-          "pitch": 0.3011251371741821,
+          "yaw": 0.008239554245610847,
+          "pitch": 0.3147407323201463,
           "rotation": 0,
-          "target": "0-salon2"
+          "target": "2-salon-2"
         },
         {
-          "yaw": -1.3634075508000727,
-          "pitch": 0.4834619119801662,
+          "yaw": -1.3820689495673033,
+          "pitch": 0.48373804070966564,
           "rotation": 0,
           "target": "4-salle-de-bain"
         },
         {
-          "yaw": -2.775442375914828,
-          "pitch": 0.40835553700105365,
+          "yaw": -2.7335968357221248,
+          "pitch": 0.5358636713087535,
           "rotation": 0,
           "target": "5-chambre"
         }
@@ -202,7 +196,7 @@ var APP_DATA = {
     },
     {
       "id": "4-salle-de-bain",
-      "name": "Salle-de-bain",
+      "name": "Salle de bain",
       "levels": [
         {
           "tileSize": 256,
@@ -224,14 +218,14 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.651626870222005,
-        "pitch": -0.0023421243076491294,
-        "fov": 1.5629220283745582
+        "yaw": 1.5454496296177593,
+        "pitch": 0,
+        "fov": 1.5626018005051336
       },
       "linkHotspots": [
         {
-          "yaw": 1.6495222285917226,
-          "pitch": 0.4813606118329048,
+          "yaw": 1.6641361889077118,
+          "pitch": 0.46974252881281764,
           "rotation": 0,
           "target": "3-couloir"
         }
@@ -268,8 +262,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.0384947014760257,
-          "pitch": 0.4514658680571948,
+          "yaw": 1.0077025893210632,
+          "pitch": 0.4586256946293865,
           "rotation": 0,
           "target": "3-couloir"
         }
