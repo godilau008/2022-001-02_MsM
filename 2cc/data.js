@@ -190,6 +190,12 @@ var APP_DATA = {
           "pitch": 0.23458724802425834,
           "rotation": 0,
           "target": "6-chambre-2"
+        },
+        {
+          "yaw": -2.304476111216351,
+          "pitch": 0.30255938963931683,
+          "rotation": 0,
+          "target": "2-salon-2"
         }
       ],
       "infoHotspots": []
