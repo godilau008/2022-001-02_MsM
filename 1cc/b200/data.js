@@ -83,7 +83,7 @@ var APP_DATA = {
           "yaw": -1.9997826637995537,
           "pitch": 0.2824062005378227,
           "rotation": 0,
-          "target": "2-cuisine"
+          "target": "3-couloir"
         },
         {
           "yaw": 0.5058620173793749,
