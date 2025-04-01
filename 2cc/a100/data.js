@@ -365,7 +365,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "2CC-A100",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
