@@ -208,7 +208,7 @@ var APP_DATA = {
     },
     {
       "id": "4-salle-de-bain",
-      "name": "Salle de Bain",
+      "name": "Salle de bain",
       "levels": [
         {
           "tileSize": 256,
