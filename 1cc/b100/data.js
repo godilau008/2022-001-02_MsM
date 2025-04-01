@@ -315,7 +315,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "1CC-B100",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
